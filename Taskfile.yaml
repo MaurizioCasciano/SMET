@@ -8,3 +8,6 @@ tasks:
       - python3 -m venv venv
       - source venv/bin/activate
       - venv/bin/pip3 install -r requirements.txt
+  spacy:
+    cmds:
+      - venv/bin/python3 -m spacy download en_core_web_lg
