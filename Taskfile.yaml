@@ -14,3 +14,6 @@ tasks:
   nltk:
     cmds:
       - venv/bin/python3 -c "import nltk; nltk.download('stopwords')"
+  test:
+    cmds:
+      - venv/bin/python3 test.py
